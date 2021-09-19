@@ -1,0 +1,16 @@
+[
+    {
+      "title": "Blog Post 1",
+      "content": "This json file has title and content fields"
+    },
+    {
+      "title": "Blog Post 2",
+      "content": "With any luck, adding this json file will stop the 404 error"
+    },
+    {
+      "title": "Blog Post 3",
+      "content": "How will the server recognise this is the file to add json to?"
+    }
+  ]
+
+  

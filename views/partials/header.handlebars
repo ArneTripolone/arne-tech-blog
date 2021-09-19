@@ -1,0 +1,21 @@
+<nav>
+  <header class="display-flex justify-space-between align-center p-2">
+    <ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="/">Home</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link" href="/blogpost">Dashboard</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/login">Login</a>
+  </li>
+  <li
+    {{#if logged_in}}
+    class="nav-item">
+    <a class="nav-link" href="" id="logout">Logout</a>
+    {{/if}}
+  </li>
+  </header>
+</ul>
+</nav>
